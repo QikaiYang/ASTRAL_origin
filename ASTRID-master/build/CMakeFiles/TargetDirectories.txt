@@ -1,0 +1,8 @@
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/install/strip.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/install/local.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/Test.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/ASTRID.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/edit_cache.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/rebuild_cache.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/list_install_components.dir
+/home/qikaiy2/Desktop/ASTRAL_origin/ASTRID-master/build/CMakeFiles/install.dir
