@@ -1,6 +1,0 @@
-Used base pairs 2 to 27 instead of base pairs 1 to 25, because otherwise, there was no 'G' in the alignment.
-
-In this case, RAxML gave the following error message:
-
-Empirical base frequency for state number 2 is equal to zero in DNA data partition No Name Provided
-Since this is probably not what you want to do, RAxML will soon exit.
