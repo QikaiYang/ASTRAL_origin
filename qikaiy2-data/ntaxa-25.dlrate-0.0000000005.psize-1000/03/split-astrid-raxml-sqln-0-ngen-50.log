@@ -1,0 +1,7 @@
+[28-11-2019 00:37:33] PROGRESS {astrid.cpp:147} Reading trees...
+[28-11-2019 00:37:33] PROGRESS {astrid.cpp:153} Read 0 trees
+Estimating tree
+Running auto
+No missing entries in distance matrix, running FastME2+SPR
+
+ . Error: Low memory! nb -2 size 8

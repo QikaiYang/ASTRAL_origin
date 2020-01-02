@@ -1,0 +1,120 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+500 trees read from g_trees-raxml-sqlen-50-ngen-500-s2g.trees
+All output trees will be *arbitrarily* rooted at 14
+
+======== Running the main analysis
+Number of taxa: 130 (25 species)
+Taxa: {22=[22_5, 22_4, 22_3, 22_2, 22_1], 23=[23_5, 23_4, 23_3, 23_2, 23_1], 24=[24_4, 24_3, 24_2, 24_1, 24_6, 24_5], 25=[25_3, 25_2, 25_1, 25_7, 25_6, 25_5, 25_4], 10=[10_5, 10_4, 10_3, 10_2, 10_1], 11=[11_5, 11_4, 11_3, 11_2, 11_1], 12=[12_5, 12_4, 12_3, 12_2, 12_1], 13=[13_4, 13_3, 13_2, 13_1, 13_5], 14=[14_3, 14_2, 14_1, 14_6, 14_5, 14_4], 15=[15_2, 15_1, 15_5, 15_4, 15_3], 16=[16_1, 16_5, 16_4, 16_3, 16_2], 17=[17_6, 17_5, 17_4, 17_3, 17_2, 17_1], 18=[18_4, 18_3, 18_2, 18_1], 19=[19_5, 19_4, 19_3, 19_2, 19_1], 1=[1_1, 1_2, 1_3, 1_4, 1_5], 2=[2_1, 2_2, 2_3, 2_4, 2_5], 3=[3_1, 3_2, 3_3, 3_4, 3_5, 3_6], 4=[4_1, 4_2, 4_3, 4_4, 4_5], 5=[5_1, 5_2, 5_3, 5_4, 5_5], 6=[6_1, 6_2, 6_3, 6_4], 7=[7_1, 7_2, 7_3, 7_4, 7_5], 8=[8_1, 8_2, 8_3, 8_4, 8_5, 8_6], 9=[9_1, 9_2, 9_3, 9_4, 9_5], 20=[20_5, 20_4, 20_3, 20_2, 20_1], 21=[21_5, 21_4, 21_3, 21_2, 21_1]}
+Taxon occupancy: {14_3=31, 14_2=103, 14_1=360, 10_5=1, 10_4=9, 10_3=26, 10_2=103, 10_1=382, 18_4=5, 18_3=32, 18_2=115, 14_6=1, 18_1=369, 14_5=2, 14_4=11, 25_3=28, 25_2=104, 25_1=381, 21_5=2, 21_4=7, 21_3=27, 3_1=371, 21_2=110, 21_1=386, 3_2=103, 3_3=32, 3_4=9, 7_1=377, 3_5=1, 7_2=101, 3_6=1, 7_3=25, 25_7=1, 7_4=4, 25_6=1, 7_5=1, 25_5=1, 25_4=7, 13_4=5, 13_3=25, 13_2=97, 13_1=374, 17_6=1, 17_5=2, 17_4=10, 17_3=28, 17_2=97, 17_1=378, 13_5=2, 24_4=6, 24_3=26, 24_2=105, 24_1=366, 20_5=3, 2_1=367, 20_4=7, 2_2=115, 20_3=28, 20_2=99, 2_3=36, 20_1=368, 2_4=8, 6_1=384, 2_5=2, 6_2=105, 6_3=31, 6_4=9, 24_6=1, 24_5=3, 16_1=373, 12_5=2, 12_4=7, 12_3=27, 12_2=98, 12_1=378, 16_5=1, 16_4=8, 16_3=31, 16_2=111, 23_5=2, 23_4=9, 23_3=29, 1_1=375, 23_2=105, 1_2=95, 23_1=384, 1_3=33, 1_4=11, 5_1=366, 1_5=2, 5_2=115, 5_3=35, 5_4=7, 9_1=368, 5_5=1, 9_2=102, 9_3=31, 9_4=10, 9_5=2, 15_2=98, 15_1=369, 11_5=5, 11_4=12, 11_3=33, 11_2=106, 11_1=367, 19_5=2, 19_4=9, 19_3=27, 19_2=97, 19_1=376, 15_5=1, 15_4=3, 15_3=30, 22_5=1, 22_4=8, 22_3=24, 22_2=111, 22_1=382, 4_1=383, 4_2=106, 4_3=35, 4_4=8, 8_1=373, 4_5=1, 8_2=114, 8_3=41, 8_4=10, 8_5=2, 8_6=1}
+Number of gene trees: 500
+500 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+In second round sampling 4 rounds will be done
+------------------------------
+gradient0: 1199
+------------------------------
+gradient1: 426
+------------------------------
+gradient2: 264
+------------------------------
+gradient3: 228
+Number of Clusters after addition by distance: 2117
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 2117
+max k is :0
+Number of Clusters after addition by greedy: 2117
+gradient0 in heuristiic: 2117
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [3, 3, 4, 4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 2117
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 2117
+max k is :0
+Number of Clusters after addition by greedy: 2117
+gradient1 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [3, 4, 4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 2117
+Threshold 0.2:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+max k is :0
+Number of Clusters after addition by greedy: 2117
+gradient2 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [3, 4, 4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 2117
+Threshold 0.2:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 2117
+max k is :0
+Number of Clusters after addition by greedy: 2117
+gradient3 in heuristiic: 0
+partitions formed in 48.273 secs
+Dynamic Programming starting after 48.273 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 26197807
+Polytree building time: 0.047 seconds.
+Number of quartet trees in the gene trees: 26120547
+Size of largest cluster: 130
+Greedy score: 11019340
+estimationFactor: 2.3774387405489468
+Sub-optimal score: 11491000
+Total Number of elements weighted: 10642
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.4915768609286781
+Optimization score: 12840256
+Optimal tree inferred in 53.015 secs.
+(6,(10,(((16,4),(8,((2,5),((3,20),(11,(14,9)))))),((18,(12,(17,19))),((15,(1,(7,13))),((23,22),(21,(25,24))))))));
+Final quartet score is: 13717692
+Final normalized quartet score is: 0.5251686344853345
+((14_3,14_2,14_1,14_6,14_5,14_4)0.03:0.0,((9_1,9_2,9_3,9_4,9_5)0.02:0.0,((11_5,11_4,11_3,11_2,11_1)0.05:0.0,(((3_1,3_2,3_3,3_4,3_5,3_6)0.1:0.0,(20_5,20_4,20_3,20_2,20_1)0.06:0.0)1:0.46785278459475466,(((2_1,2_2,2_3,2_4,2_5)0.01:0.0,(5_1,5_2,5_3,5_4,5_5)0.01:0.0)1:1.263106354595599,((8_1,8_2,8_3,8_4,8_5,8_6)0.29:0.0,(((16_1,16_5,16_4,16_3,16_2)0.04:0.0,(4_1,4_2,4_3,4_4,4_5)0.09:0.0)1:1.1033320556807538,((((18_4,18_3,18_2,18_1)0.87:0.15217121759859456,((12_5,12_4,12_3,12_2,12_1)0.02:0.0,((17_6,17_5,17_4,17_3,17_2,17_1)0.02:0.0,(19_5,19_4,19_3,19_2,19_1)0.02:0.0)1:0.17255610145819272)1:1.5342650998820029)1:0.376065344002675,(((15_2,15_1,15_5,15_4,15_3)0.97:0.26458970187010367,((1_1,1_2,1_3,1_4,1_5)1:0.4556116233193962,((7_1,7_2,7_3,7_4,7_5)0.2:0.0,(13_4,13_3,13_2,13_1,13_5)0.15:0.0)1:1.273938337268203)0.12:0.0)0.77:0.053908329711170475,(((23_5,23_4,23_3,23_2,23_1)0.04:0.0,(22_5,22_4,22_3,22_2,22_1)0.03:0.0)1:1.4272854239059554,((21_5,21_4,21_3,21_2,21_1)0.98:0.2959726913430331,((25_3,25_2,25_1,25_7,25_6,25_5,25_4)0.18:0.0,(24_4,24_3,24_2,24_1,24_6,24_5)0.07:0.0)1:0.9738239008583485)0.06:0.008815842110405831)1:1.8722559614435674)1:0.24294149883092955)1:0.31487998744344514,((10_5,10_4,10_3,10_2,10_1)0.02:0.0,(6_1,6_2,6_3,6_4)0.01:0.0)1:1.5168466834689125)1:0.31026159334547443)1:0.33481997876202785)1:0.27300204342834805)0.93:0.07900358173109058)1:1.0036429806241007)1:0.185137658919222));
+Weight calculation took 4.825553368 secs
+ASTRAL finished in 53.604 secs

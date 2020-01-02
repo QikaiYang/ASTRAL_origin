@@ -1,0 +1,96 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+500 trees read from g_trees-raxml-sqlen-50-ngen-500-s2g.trees
+All output trees will be *arbitrarily* rooted at 14
+
+======== Running the main analysis
+Number of taxa: 96 (25 species)
+Taxa: {22=[22_3, 22_2, 22_1], 23=[23_4, 23_3, 23_2, 23_1], 24=[24_4, 24_3, 24_2, 24_1], 25=[25_3, 25_2, 25_1], 10=[10_4, 10_3, 10_2, 10_1], 11=[11_3, 11_2, 11_1], 12=[12_4, 12_3, 12_2, 12_1], 13=[13_4, 13_3, 13_2, 13_1], 14=[14_3, 14_2, 14_1, 14_4], 15=[15_2, 15_1, 15_4, 15_3], 16=[16_1, 16_5, 16_4, 16_3, 16_2], 17=[17_4, 17_3, 17_2, 17_1], 18=[18_4, 18_3, 18_2, 18_1], 19=[19_4, 19_3, 19_2, 19_1], 1=[1_1, 1_2, 1_3, 1_4], 2=[2_1, 2_2, 2_3, 2_4], 3=[3_1, 3_2, 3_3], 4=[4_1, 4_2, 4_3, 4_4], 5=[5_1, 5_2, 5_3, 5_4, 5_5], 6=[6_1, 6_2, 6_3], 7=[7_1, 7_2, 7_3, 7_4], 8=[8_1, 8_2, 8_3, 8_4], 9=[9_1, 9_2, 9_3], 20=[20_4, 20_3, 20_2, 20_1], 21=[21_4, 21_3, 21_2, 21_1]}
+Taxon occupancy: {16_1=429, 14_3=9, 14_2=52, 12_4=1, 14_1=421, 12_3=4, 12_2=70, 10_4=1, 12_1=437, 10_3=10, 10_2=63, 10_1=437, 18_4=1, 18_3=10, 16_5=1, 18_2=60, 16_4=2, 18_1=431, 16_3=8, 16_2=67, 14_4=2, 25_3=7, 25_2=62, 23_4=1, 25_1=430, 23_3=10, 1_1=427, 23_2=68, 21_4=1, 23_1=434, 1_2=66, 21_3=9, 3_1=438, 21_2=69, 1_3=10, 21_1=424, 3_2=63, 1_4=1, 5_1=445, 3_3=3, 5_2=58, 7_1=429, 5_3=4, 7_2=64, 5_4=1, 9_1=437, 7_3=6, 5_5=1, 9_2=55, 7_4=2, 9_3=8, 15_2=65, 13_4=3, 15_1=430, 13_3=7, 13_2=79, 13_1=434, 11_3=7, 11_2=66, 11_1=430, 19_4=2, 19_3=7, 19_2=71, 17_4=1, 19_1=436, 17_3=5, 17_2=75, 15_4=1, 17_1=437, 15_3=8, 24_4=1, 24_3=5, 24_2=77, 24_1=436, 22_3=7, 2_1=440, 22_2=45, 20_4=1, 22_1=415, 2_2=67, 20_3=8, 4_1=430, 20_2=53, 2_3=6, 20_1=424, 4_2=57, 2_4=1, 6_1=433, 4_3=10, 6_2=49, 4_4=1, 8_1=429, 6_3=5, 8_2=56, 8_3=11, 8_4=1}
+Number of gene trees: 500
+500 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+In second round sampling 3 rounds will be done
+------------------------------
+gradient0: 763
+------------------------------
+gradient1: 292
+------------------------------
+gradient2: 120
+Number of Clusters after addition by distance: 1175
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3, 3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 1175
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 1175
+max k is :0
+Number of Clusters after addition by greedy: 1175
+gradient0 in heuristiic: 1175
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 1175
+max k is :0
+Number of Clusters after addition by greedy: 1175
+gradient1 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 1175
+max k is :0
+Number of Clusters after addition by greedy: 1175
+gradient2 in heuristiic: 0
+partitions formed in 27.758 secs
+Dynamic Programming starting after 27.758 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 10225710
+Polytree building time: 0.071 seconds.
+Number of quartet trees in the gene trees: 10216919
+Size of largest cluster: 96
+Greedy score: 6326280
+estimationFactor: 1.6163859329653445
+Sub-optimal score: 6850023
+Total Number of elements weighted: 4900
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.6813879996503839
+Optimization score: 6961686
+Optimal tree inferred in 29.778 secs.
+(3,((1,(5,2)),(9,(((10,7),(6,(4,8))),((22,(14,20)),((15,(21,(25,(18,11)))),(13,((16,12),(23,(19,(17,24)))))))))));
+Final quartet score is: 7190903
+Final normalized quartet score is: 0.7038230409774219
+((14_3,14_2,14_1,14_4)0.07:0.0,((20_4,20_3,20_2,20_1)0.08:0.0,((22_3,22_2,22_1)0.68:0.12280220356516966,((((15_2,15_1,15_4,15_3)0.04:0.0,((21_4,21_3,21_2,21_1)0.07:0.0,((25_3,25_2,25_1)0.04:0.0,((18_4,18_3,18_2,18_1)0.02:0.0,(11_3,11_2,11_1)0.04:0.0)1:0.3916157613156482)0.99:0.10669212448926663)0.95:0.08398210081817822)1:1.0705668134656412,((13_4,13_3,13_2,13_1)0.24:0.0,(((16_1,16_5,16_4,16_3,16_2)0.14:0.0,(12_4,12_3,12_2,12_1)0.05:0.0)0.78:0.048508019582662494,((23_4,23_3,23_2,23_1)0.07:0.0,((19_4,19_3,19_2,19_1)0.04:0.0,((17_4,17_3,17_2,17_1)0.01:0.0,(24_4,24_3,24_2,24_1)0.01:0.0)1:1.2996763534567337)1:0.15777545574679258)0.94:0.07604557872967102)1:0.1340225304577723)1:0.6901026018242038)1:0.8154213921246863,((((10_4,10_3,10_2,10_1)0.36:0.0,(7_1,7_2,7_3,7_4)0.62:0.0950869000527078)1:1.3315842777980869,((6_1,6_2,6_3)1:0.5617229394599706,((4_1,4_2,4_3,4_4)0.02:0.0,(8_1,8_2,8_3,8_4)0.02:0.0)1:2.5959464792405247)1:0.12838622495130173)1:0.20330166060817623,((9_1,9_2,9_3)0.88:0.19872162058249287,(((1_1,1_2,1_3,1_4)0.27:0.0,((5_1,5_2,5_3,5_4,5_5)0.11:0.0,(2_1,2_2,2_3,2_4)0.14:0.0)1:0.5064301552675119)1:0.5104677607034052,(3_1,3_2,3_3)0.94:0.23154256907295462)1:0.1780331469554939)1:1.0708632323711524)1:0.7267366081224759)1:0.49942738758252275)1:1.5616255733857591));
+Weight calculation took 1.965756388 secs
+ASTRAL finished in 30.18 secs

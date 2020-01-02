@@ -1,0 +1,145 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+100 trees read from g_trees-raxml-sqlen-25-ngen-100-s2g.trees
+All output trees will be *arbitrarily* rooted at 14
+
+======== Running the main analysis
+Number of taxa: 99 (25 species)
+Taxa: {22=[22_4, 22_3, 22_2, 22_1], 23=[23_5, 23_4, 23_3, 23_2, 23_1], 24=[24_4, 24_3, 24_2, 24_1, 24_5], 25=[25_3, 25_2, 25_1, 25_4], 10=[10_3, 10_2, 10_1], 11=[11_4, 11_3, 11_2, 11_1], 12=[12_3, 12_2, 12_1], 13=[13_4, 13_3, 13_2, 13_1], 14=[14_3, 14_2, 14_1, 14_4], 15=[15_2, 15_1, 15_3], 16=[16_1, 16_4, 16_3, 16_2], 17=[17_3, 17_2, 17_1], 18=[18_4, 18_3, 18_2, 18_1], 19=[19_4, 19_3, 19_2, 19_1], 1=[1_1, 1_2, 1_3, 1_4], 2=[2_1, 2_2, 2_3, 2_4], 3=[3_1, 3_2, 3_3, 3_4], 4=[4_1, 4_2, 4_3, 4_4, 4_5, 4_6, 4_7], 5=[5_1, 5_2, 5_3, 5_4, 5_5], 6=[6_1, 6_2, 6_3], 7=[7_1, 7_2, 7_3], 8=[8_1, 8_2, 8_3, 8_4, 8_5], 9=[9_1, 9_2, 9_3], 20=[20_3, 20_2, 20_1], 21=[21_4, 21_3, 21_2, 21_1]}
+Taxon occupancy: {14_3=2, 14_2=14, 14_1=72, 10_3=1, 10_2=13, 10_1=76, 18_4=1, 18_3=2, 18_2=15, 18_1=77, 14_4=1, 25_3=6, 25_2=21, 25_1=81, 21_4=1, 21_3=3, 3_1=72, 21_2=20, 21_1=80, 3_2=14, 3_3=2, 3_4=1, 7_1=76, 7_2=17, 7_3=2, 25_4=1, 13_4=1, 13_3=1, 13_2=15, 13_1=72, 17_3=4, 17_2=20, 17_1=69, 24_4=1, 24_3=2, 24_2=19, 24_1=80, 2_1=73, 20_3=4, 2_2=16, 20_2=20, 2_3=3, 20_1=80, 2_4=2, 6_1=73, 6_2=23, 6_3=4, 24_5=1, 16_1=72, 12_3=3, 12_2=22, 12_1=75, 16_4=1, 16_3=1, 16_2=15, 23_5=1, 23_4=1, 23_3=2, 1_1=71, 23_2=19, 23_1=81, 1_2=19, 1_3=4, 1_4=1, 5_1=77, 5_2=13, 5_3=3, 5_4=2, 9_1=72, 5_5=1, 9_2=20, 9_3=4, 15_2=20, 15_1=77, 11_4=1, 11_3=4, 11_2=19, 11_1=76, 19_4=1, 19_3=3, 19_2=20, 19_1=80, 15_3=1, 22_4=1, 22_3=4, 22_2=18, 22_1=81, 4_1=74, 4_2=19, 4_3=3, 4_4=1, 8_1=73, 4_5=1, 8_2=14, 4_6=1, 8_3=3, 4_7=1, 8_4=1, 8_5=1}
+Number of gene trees: 100
+100 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+In second round sampling 3 rounds will be done
+------------------------------
+gradient0: 473
+------------------------------
+gradient1: 144
+------------------------------
+gradient2: 98
+Number of Clusters after addition by distance: 715
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 715
+max k is :0
+Number of Clusters after addition by greedy: 715
+gradient0 in heuristiic: 715
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 715
+max k is :0
+Number of Clusters after addition by greedy: 715
+gradient1 in heuristiic: 0
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 715
+max k is :0
+Number of Clusters after addition by greedy: 715
+gradient2 in heuristiic: 0
+partitions formed in 9.654 secs
+Dynamic Programming starting after 9.655 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 2324370
+Polytree building time: 0.024 seconds.
+Number of quartet trees in the gene trees: 2317716
+Size of largest cluster: 99
+Greedy score: 1353927
+estimationFactor: 1.7167610525674382
+Sub-optimal score: 1432008
+Total Number of elements weighted: 1851
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.6236961301557222
+Optimization score: 1445550
+Optimal tree inferred in 9.964 secs.
+(20,((24,23),((21,(25,22)),(19,((11,((7,9),((10,15),(6,12)))),((18,(5,(14,3))),((2,(13,16)),((17,1),(4,8)))))))));
+Final quartet score is: 1524962
+Final normalized quartet score is: 0.6579589561447563
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 7:
+	{14}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 7:
+	{3}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 6:
+	{5}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 8:
+	{18}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 9:
+	{2}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 8:
+	{13}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 8:
+	{16}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 14:
+	{17}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 10:
+	{1}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 6:
+	{4}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 6:
+	{8}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 10:
+	{11}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 12:
+	{7}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 14:
+	{9}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 9:
+	{10}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 13:
+	{15}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 16:
+	{6}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 15:
+	{12}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 9:
+	{19}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 11:
+	{21}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 12:
+	{25}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 10:
+	{22}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 8:
+	{24}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 8:
+	{23}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 13:
+	{20}
+((14_3,14_2,14_1,14_4)0.08:0.0,((3_1,3_2,3_3,3_4)0.08:0.0,((5_1,5_2,5_3,5_4,5_5)0.32:0.0,((18_4,18_3,18_2,18_1)0.43:0.021646836122787925,((((2_1,2_2,2_3,2_4)0.16:0.0,((13_4,13_3,13_2,13_1)0.1:0.0,(16_1,16_4,16_3,16_2)0.08:0.0)1:1.0167210481410696)0.98:0.2398338909584536,(((17_3,17_2,17_1)0.14:0.0,(1_1,1_2,1_3,1_4)0.26:0.0)1:0.4561440489641834,((4_1,4_2,4_3,4_4,4_5,4_6,4_7)0.47:0.05214942852420202,(8_1,8_2,8_3,8_4,8_5)0.18:0.0)0.45:0.040579690805748726)0.19:0.0)1:0.4556388105638028,(((11_4,11_3,11_2,11_1)0.23:0.0,(((7_1,7_2,7_3)0.15:0.0,(9_1,9_2,9_3)0.28:0.0)1:0.4917793910256059,(((10_3,10_2,10_1)0.16:0.0,(15_2,15_1,15_3)0.06:0.0)1:0.7664131453172291,((6_1,6_2,6_3)0.14:0.0,(12_3,12_2,12_1)0.12:0.0)1:0.9075680805695823)0.9:0.1614426233655418)0.39:0.01950345113413325)1:0.9567399530622638,((19_4,19_3,19_2,19_1)0.36:0.0,(((21_4,21_3,21_2,21_1)0.18:0.0,((25_3,25_2,25_1,25_4)0.26:0.0,(22_4,22_3,22_2,22_1)0.09:0.0)1:0.2913295424881732)0.96:0.1928265111481597,(((24_4,24_3,24_2,24_1,24_5)0.11:0.0,(23_5,23_4,23_3,23_2,23_1)0.14:0.0)1:0.9273164540162424,(20_3,20_2,20_1)0.28:0.0)0.97:0.2071671212591459)0.54:0.047690743219548914)1:1.302677953350151)1:0.4181843188277235)1:0.3399722032308369)1:0.4223249331484868)1:1.6166854293847135));
+Weight calculation took 0.261649433 secs
+ASTRAL finished in 10.117 secs

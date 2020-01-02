@@ -1,0 +1,61 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+50 trees read from g_trees-raxml-sqlen-25-ngen-50.trees.tree
+All output trees will be *arbitrarily* rooted at 23
+
+======== Running the main analysis
+Number of taxa: 25 (25 species)
+Taxa: [23, 21, 25, 20, 17, 16, 14, 24, 18, 15, 22, 6, 12, 11, 4, 2, 5, 8, 13, 3, 9, 10, 1, 7, 19]
+Taxon occupancy: {22=50, 23=50, 24=50, 25=50, 10=50, 11=50, 12=50, 13=50, 14=50, 15=50, 16=50, 17=50, 18=50, 19=50, 1=50, 2=50, 3=50, 4=50, 5=50, 6=50, 7=50, 8=50, 9=50, 20=50, 21=50}
+Number of gene trees: 50
+0 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 903
+Number of Clusters after addition by distance: 903
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 8
+discarded polytomies:  [3, 3, 5, 7, 8]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+polytomy of size 5; rounds with additions with at least 5 support: 0; clusters: 903
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 903
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 903
+polytomy of size 7; rounds with additions with at least 5 support: 0; clusters: 903
+polytomy of size 8; rounds with additions with at least 5 support: 0; clusters: 903
+max k is :0
+Number of Clusters after addition by greedy: 903
+gradient0 in heuristiic: 903
+partitions formed in 0.411 secs
+Dynamic Programming starting after 0.411 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 632500
+Polytree building time: 0.042 seconds.
+Number of quartet trees in the gene trees: 632500
+Size of largest cluster: 25
+Greedy score: 406039
+estimationFactor: 1.5577321390309797
+Sub-optimal score: 440551
+Total Number of elements weighted: 2192
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.7402513833992095
+Optimization score: 468209
+Optimal tree inferred in 0.664 secs.
+(17,((25,20),(14,((16,((19,(23,21)),(24,(18,(15,22))))),((12,(11,(6,4))),(7,((2,(9,(10,1))),((5,8),(13,3)))))))));
+Final quartet score is: 468209
+Final normalized quartet score is: 0.7402513833992095
+(23,(21,(19,((24,(18,(15,22)1:1.1367640546324862)1:0.34929925018096747)1:0.40819213461408893,(16,(((12,(11,(6,4)0.71:0.12364913812279098)1:0.5719464003929015)0.98:0.2863515612183076,(7,((2,(9,(10,1)1:2.7672553762644165)1:1.021806877444365)0.95:0.23143184140061898,((5,8)1:0.8687685447840799,(13,3)1:1.0082801011461626)0.86:0.1692584628192305)0.72:0.11970929227154217)0.78:0.13300632041503188)1:1.6944737465505297,(14,((25,20)0.93:0.2105229919051625,17)1:0.8183103235139507)0.99:0.34910829751755207)0.83:0.15339681624085866)0.98:0.2823139614014092)0.87:0.16941500968042966)1:1.0079311827895172));
+Weight calculation took 0.147900348 secs
+ASTRAL finished in 2.838 secs

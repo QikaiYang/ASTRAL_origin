@@ -1,0 +1,10 @@
+[28-11-2019 00:20:07] PROGRESS {astrid.cpp:147} Reading trees...
+[28-11-2019 00:20:07] PROGRESS {astrid.cpp:153} Read 2 trees
+Estimating tree
+Running auto
+No missing entries in distance matrix, running FastME2+SPR
+
+ . Performing NNI...
+
+ . Performing SPR...
+((((20,(21,22)),((23,24),16)),(((((15,3),4),(((13,(2,12)),(((9,1),5),(11,(8,(6,7))))),14)),10),(25,17))),19,18);

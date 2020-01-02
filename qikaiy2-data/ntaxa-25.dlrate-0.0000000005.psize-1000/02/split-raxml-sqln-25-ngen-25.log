@@ -1,0 +1,78 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+43 trees read from g_trees-raxml-sqlen-25-ngen-25.trees.tree
+All output trees will be *arbitrarily* rooted at 17
+
+======== Running the main analysis
+Number of taxa: 25 (25 species)
+Taxa: [17, 5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 19, 8, 2, 11, 20, 14, 10, 22, 23, 21, 25, 24]
+Taxon occupancy: {22=19, 23=15, 24=16, 25=22, 10=15, 11=28, 12=27, 13=41, 14=28, 15=24, 16=42, 17=29, 18=32, 19=21, 1=29, 2=27, 3=31, 4=43, 5=35, 6=27, 7=24, 8=40, 9=35, 20=26, 21=17}
+Number of gene trees: 43
+43 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 277
+Number of Clusters after addition by distance: 277
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 4
+discarded polytomies:  [4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 277
+max k is :0
+Number of Clusters after addition by greedy: 277
+gradient0 in heuristiic: 277
+partitions formed in 0.162 secs
+Dynamic Programming starting after 0.162 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 97590
+Polytree building time: 0.011 seconds.
+Number of quartet trees in the gene trees: 97590
+Size of largest cluster: 25
+Greedy score: 76100
+estimationFactor: 1.2823915900131406
+Sub-optimal score: 76421
+Total Number of elements weighted: 403
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.8149195614304744
+Optimization score: 79528
+Optimal tree inferred in 0.244 secs.
+(22,((17,19),((23,24),(21,(25,((5,((13,16),(1,(18,9)))),(((15,7),(3,(6,12))),((4,10),(2,(11,(14,(8,20))))))))))));
+Final quartet score is: 79528
+Final normalized quartet score is: 0.8149195614304744
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 14:
+	{23, 24}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 19:
+	{15, 7}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 17:
+	{6, 3, 12}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 15:
+	{4, 10}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 13:
+	{8, 11, 20, 14}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 18:
+	{5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 8, 2, 11, 20, 14, 10}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 16:
+	{5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 8, 2, 11, 20, 14, 10, 25}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 16:
+	{5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 8, 2, 11, 20, 14, 10, 21, 25}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 16:
+	{5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 8, 2, 11, 20, 14, 10, 23, 21, 25, 24}
+You may want to ignore posterior probabilities and other statistics related to the following branch branch because the effective number of genes impacting it is only 4:
+	{5, 4, 15, 7, 6, 3, 12, 13, 18, 9, 1, 16, 8, 2, 11, 20, 14, 10, 22, 23, 21, 25, 24}
+(17,(19,(((23,24)1:1.6465774593835572,(21,(25,((5,((13,16)0.99:0.4700036292457356,(1,(18,9)0.93:0.3206819953320989)1:0.8846012209171723)1:1.074292195304212)0.57:0.2216227926696228,(((15,7)0.02:0.025317807984289783,(3,(6,12)0.72:0.1637227243574925)1:0.8754687373538999)1:2.206193247318979,((4,10)1:1.0366381980703054,(2,(11,(14,(8,20)1:1.3749280417358296)0.92:0.3710009441656789)0.96:0.49802854039345323)1:1.409319101153936)1:0.5529578394026529)0.49:0.2373813339769822)1:2.3113957226762)1:1.3126066453287313)1:0.8261185059617632)1:0.8308891057208115,22)0.98:1.2039728043259361));
+Weight calculation took 0.029266388 secs
+ASTRAL finished in 0.514 secs

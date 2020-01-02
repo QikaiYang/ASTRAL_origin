@@ -1,0 +1,58 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.3
+Gene trees are treated as unrooted
+1152 trees read from g_trees-raxml-sqlen-25-ngen-500.trees.tree
+All output trees will be *arbitrarily* rooted at 2
+
+======== Running the main analysis
+Number of taxa: 25 (25 species)
+Taxa: [2, 4, 8, 6, 9, 10, 1, 3, 25, 12, 14, 19, 17, 16, 11, 22, 24, 15, 5, 7, 23, 21, 20, 13, 18]
+Taxon occupancy: {22=819, 23=677, 24=844, 25=890, 10=488, 11=919, 12=861, 13=724, 14=851, 15=871, 16=983, 17=925, 18=543, 19=952, 1=556, 2=660, 3=523, 4=662, 5=705, 6=563, 7=672, 8=628, 9=650, 20=696, 21=943}
+Number of gene trees: 1152
+1151 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 1581
+Number of Clusters after addition by distance: 1581
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:675
+polytomy size limit : 3
+discarded polytomies:  [3]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 1581
+max k is :0
+Number of Clusters after addition by greedy: 1581
+gradient0 in heuristiic: 1581
+partitions formed in 0.863 secs
+Dynamic Programming starting after 0.863 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 2671548
+Polytree building time: 0.126 seconds.
+Number of quartet trees in the gene trees: 2671548
+Size of largest cluster: 25
+Greedy score: 1938288
+estimationFactor: 1.3783029147371288
+Sub-optimal score: 2052769
+Total Number of elements weighted: 5810
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.7792119026122682
+Optimization score: 2081702
+Optimal tree inferred in 4.599 secs.
+(9,(6,((8,(2,4)),(((5,7),(10,(1,3))),(18,(20,((23,13),((25,(12,14)),((22,24),(15,(11,(17,(16,(19,21))))))))))))));
+Final quartet score is: 2081702
+Final normalized quartet score is: 0.7792119026122682
+(2,(4,(8,((((5,7)1:0.6315031745058792,(10,(1,3)1:2.292035902771842)1:0.9849388922861838)0.89:0.08663831003727586,(18,(20,((23,13)1:1.0028675593036687,((25,(12,14)1:0.350802016892448)1:1.1496236687076458,((22,24)1:1.692643990029309,(15,(11,(17,(16,(19,21)1:0.15690451307924075)1:0.477071822093779)0.99:0.06831334773227887)1:0.12427887249436169)1:0.5372078008497738)1:0.42907950803045974)1:0.3032797281150573)1:0.6729836222111919)0.92:0.110388348306159)1:1.5687418650685443)1:0.47678400829385426,(6,9)1:0.9599022151003843)0.93:0.09035057437368733)1:0.8164513027535065));
+Weight calculation took 3.499525185 secs
+ASTRAL finished in 6.681 secs
