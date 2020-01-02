@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+module load java
+
+modl=$arg1
+sqln=$arg2
+ngen=$arg3
+
+cd $PBS_O_WORKDIR
+
+./u_run_astrid.sh $modl 1 10 $sqln $ngen
