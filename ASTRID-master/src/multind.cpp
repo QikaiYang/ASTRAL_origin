@@ -1,8 +1,7 @@
 #include "multind.hpp"
 #include <util/Logger.hpp>
 #include<boost/tokenizer.hpp>
-#include<stdio.h>
-#include<stdlib.h>
+
 
 file_format IndSpeciesMapping::identify(istream& instream) {
   typedef boost::tokenizer<boost::char_separator<char> > tokenizer;
@@ -173,29 +172,22 @@ Taxon IndSpeciesMapping::operator[](Taxon t) {
 
 DistanceMatrix IndSpeciesMapping::average(DistanceMatrix& indiv_mat) const {
   DistanceMatrix species_mat(species_ts);
-  int count_yqk = 0;
   for (const Taxon i_s : species_ts) {
     for (const Taxon j_s : species_ts) {
       double sum_ij = 0;
       double count_ij = 0;
       for (const Taxon i_i : species_ind_map.at(i_s) ) {
         for (const Taxon j_i : species_ind_map.at(j_s) ) {
-	        sum_ij += indiv_mat(i_i, j_i);
-	        count_ij++;
-	      }
-	    }
+	    sum_ij += indiv_mat(i_i, j_i);
+	    count_ij++;
+	  }
+	}
       if (count_ij == 0) {
-	      species_mat(i_s, j_s) = 0;
-	      species_mat.masked(i_s, j_s) = 0;	
+	species_mat(i_s, j_s) = 0;
+	species_mat.masked(i_s, j_s) = 0;	
       } else {      
-        if (i_s!=j_s){
-	        species_mat(i_s, j_s) = sum_ij;//count_ij;
-	        species_mat.masked(i_s, j_s) = count_ij;		
-        }
-        else{
-          species_mat(i_s, j_s) = 0;
-	        species_mat.masked(i_s, j_s) = 0;
-        }
+	species_mat(i_s, j_s) = sum_ij/count_ij;
+	species_mat.masked(i_s, j_s) = 1;		
       }
     }
   }

@@ -43,6 +43,7 @@ DistanceMatrix get_distance_matrix(TaxonSet& ts, vector<string> newicks, vector<
     string& n = newicks[i];
     double w  = weights[i];
 
+
     DistanceMatrix dm(ts, n);
     if (tree_taxa.size() > i) {
       for (Taxon t1 : ts) {
@@ -54,11 +55,15 @@ DistanceMatrix get_distance_matrix(TaxonSet& ts, vector<string> newicks, vector<
         }
       }
     }
+
     dm *= w;
+
     if (imap) {
       dm = imap->average(dm);
-    } 
+    }
+    
     result += dm;
+
   }
 
   for (size_t i = 0; i < ts.size(); i++) {
@@ -68,11 +73,11 @@ DistanceMatrix get_distance_matrix(TaxonSet& ts, vector<string> newicks, vector<
     }
   }
 
+
   return result;
 
 }
 
-/*here*/
 DistanceMatrix get_distance_matrix(TaxonSet& ts, vector<string> newicks, IndSpeciesMapping* imap) {
   vector<Clade> vc;
   return get_distance_matrix(ts, newicks, vector<double>(newicks.size(), 1), vc, imap);
@@ -161,6 +166,7 @@ int main(int argc, char** argv) {
 
   
   DistanceMatrix dm = get_distance_matrix(ts, input_trees, multind_mapping);
+
   cerr << "Estimating tree" << endl;
   for (string method : args.dms) {
     cerr << "Running " << method << endl;
@@ -203,21 +209,7 @@ int main(int argc, char** argv) {
 	tree = BioNJStar(*species_ts, dm, args.java_opts);
       } else {
 	cerr << "No missing entries in distance matrix, running FastME2+SPR" << endl;	
-  
-  //-------------------------------------------------------------------------
-  //----------------------------------Debug----------------------------------
-  FILE *fp;
-  char yqk = '\n';
-  fp = fopen("./matrix_astrid.txt", "w");
-  for (const Taxon i_s : (*species_ts)) {
-    for (const Taxon j_s : (*species_ts)) {
-      fprintf(fp, "%lf ", dm(i_s, j_s));
-    }
-    fprintf(fp, "%c", yqk);
-  }
-  //-------------------------------------------------------------------------
-	
-  tree = FastME(*species_ts, dm, 1, 1);
+	tree = FastME(*species_ts, dm, 1, 1);
       }
     } else if (method == "upgma") {
       tree = UPGMA(*species_ts, dm);
