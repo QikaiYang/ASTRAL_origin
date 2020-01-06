@@ -82,6 +82,11 @@ for(i in 1:length(genetree))
 {
     genetree[i]<-genetrees[[1]][i]
 }
+#print(spname)
+#print(taxaname)
+#print(species.structure)
+#print(genetree)
+#----------------------------------------------------------------------------------------------------
 final_result<-sptree.njst(genetree, taxaname, spname, species.structure)
 
 out_con<-file(args[3], "w")

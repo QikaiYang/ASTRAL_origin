@@ -205,11 +205,23 @@ int main(int argc, char** argv) {
 
     if (method == "auto") {
       if (has_missing(*species_ts, dm)) {
-	cerr << "Missing entries in distance matrix, running BioNJ*" << endl;
-	tree = BioNJStar(*species_ts, dm, args.java_opts);
+	      cerr << "Missing entries in distance matrix, running BioNJ*" << endl;
+	      tree = BioNJStar(*species_ts, dm, args.java_opts);
       } else {
-	cerr << "No missing entries in distance matrix, running FastME2+SPR" << endl;	
-	tree = FastME(*species_ts, dm, 1, 1);
+	      cerr << "No missing entries in distance matrix, running FastME2+SPR" << endl;	
+//---------------------------------------------------------------------------------------------
+//-----------------------------------------Test------------------------------------------------
+        FILE *fp;
+        char yqk = '\n';
+        fp = fopen("./matrix_astrid.txt", "w");
+        for (const Taxon i_s : (*species_ts)) {
+          for (const Taxon j_s : (*species_ts)) {
+            fprintf(fp, "%lf ", dm(i_s, j_s));
+          }
+          fprintf(fp, "%c", yqk);
+        }
+//---------------------------------------------------------------------------------------------
+	      tree = FastME(*species_ts, dm, 1, 1);
       }
     } else if (method == "upgma") {
       tree = UPGMA(*species_ts, dm);
