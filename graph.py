@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df1 = pd.read_csv("ntaxa-25-species-trees.csv")
+df1 = pd.read_csv("ntaxa-100-species-trees.csv")
 #pd.read_csv("ntaxa-25-species-trees.csv")
 #pd.read_csv("ntaxa-50-species-trees.csv")
 #pd.read_csv("ntaxa-100-species-trees.csv")
@@ -41,7 +41,7 @@ for i in range(len(NGEN)):
             plt.ylabel(SIDE[j])
         if (j == 0):
             ax.set_title(TITLE[i])
-plt.suptitle("Error rate of split-astrid and ASTRID on simulation data set when number of taxa = 25, sequence length = 25")
+plt.suptitle("Error rate of on simulation data set when number of taxa = 100, sequence length = 25")
 #------------------------------------------
 plt.figure(1) #sqln = 50
 for i in range(len(NGEN)):
@@ -65,7 +65,7 @@ for i in range(len(NGEN)):
             plt.ylabel(SIDE[j])
         if (j == 0):
             ax.set_title(TITLE[i])
-plt.suptitle("Error rate of split-astrid and ASTRID on simulation data set when number of taxa = 25, sequence length = 50")
+plt.suptitle("Error rate on simulation data set when number of taxa = 100, sequence length = 50")
 #------------------------------------------
 plt.figure(2) #sqln = 100
 for i in range(len(NGEN)):
@@ -89,7 +89,7 @@ for i in range(len(NGEN)):
             plt.ylabel(SIDE[j])
         if (j == 0):
             ax.set_title(TITLE[i])
-plt.suptitle("Error rate of split-astrid and ASTRID on simulation data set when number of taxa = 25, sequence length = 100")
+plt.suptitle("Error rate on simulation data set when number of taxa = 100, sequence length = 100")
 #------------------------------------------
 plt.figure(3) #sqln = 250
 for i in range(len(NGEN)):
@@ -114,6 +114,6 @@ for i in range(len(NGEN)):
         if (j == 0):
             ax.set_title(TITLE[i])
 
-plt.suptitle("Error rate of split-astrid and ASTRID on simulation data set when number of taxa = 25, sequence length = 250")
+plt.suptitle("Error rate on simulation data set when number of taxa = 100, sequence length = 250")
 #------------------------------------------
 plt.show()
